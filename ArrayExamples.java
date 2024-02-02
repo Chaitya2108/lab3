@@ -33,6 +33,7 @@ public class ArrayExamples {
     double sum = 0;
     for(double num: arr) {
       if(num != lowest) { sum += num; }
+      // 10 10 20 20 20 
     }
     return sum / (arr.length - 1);
   }
